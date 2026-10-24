@@ -1,21 +1,11 @@
-StudySpace Refresh
+StudySpace Next — source code
 
-This is an improved version of StudySpace V4, not a new app.
+Open index.html in your browser to preview. For full installable-app support, upload ALL files and the icons folder to your GitHub Pages repository. Keep them in the repository root.
 
-WHAT CHANGED
-- New calm charcoal and green appearance (light mode also refined)
-- Better spacing, sidebar, and dashboard styling
-- Sidebar search: type a page name, press Enter to open it
-- Improved keyboard focus and mobile layout
+GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root). Then open https://YOUR-USERNAME.github.io/StudySpace/
 
-WHAT STAYS
-Homework, timetable, grades, study timer, notes, calendar, flashcards, exams, weekly goals, settings, themes, and JSON backups.
+Features: first-run welcome tour, responsive layouts for phone/tablet/laptop, mobile bottom navigation, homework, timetable, grades, notes, flashcards, calendar, exams, study time, goals, themes, backups.
 
-TO OPEN
-1. Extract the ZIP.
-2. Open this folder in VS Code (File > Open Folder).
-3. Open index.html in a browser.
+Your data is stored locally in the browser and does not sync between devices. Export a backup from Settings before replacing files. Uploaded attachments are not included in JSON backups. Offline mode requires a first successful visit on HTTPS.
 
-Your data uses the same browser storage as StudySpace V4 when opened from the same browser origin. Export a backup from your existing version first. PDF/Word attachments are not in JSON backups.
-
-This is a local browser app; no online account or sync.
+Files: index.html, style.css, script.js, app-shell.js, manifest.webmanifest, sw.js, icons/*.png. No paid API or backend required.
